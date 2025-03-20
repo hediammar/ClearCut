@@ -1,0 +1,8 @@
+streamlit==1.18.0
+pillow==9.1.0
+numpy==1.23.1
+opencv-python==4.6.0.66
+scipy==1.9.1
+rembg==2.0.22
+pymatting==0.1.6
+base64==1.0.0
