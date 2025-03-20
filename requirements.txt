@@ -6,3 +6,4 @@ scipy==1.9.1
 rembg==2.0.22
 pymatting==0.1.6
 base64==1.0.0
+distutils
