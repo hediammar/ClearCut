@@ -146,7 +146,7 @@ testo = Image.open("assets/footer_nobg.png")
 # --- Set Page Configuration ---
 st.set_page_config(
     page_title="Clear Cut",  # 📝 Change this to your desired tab title
-    page_icon=os.path.join(os.path.dirname(__file__), "images", "Orange_logo.ico"),                   # 🎨 You can use an emoji or a URL to an icon
+    page_icon=os.path.join(os.path.dirname(__file__), "assets", "ClearCut_icon.ico"),       
     layout="wide"                     # Optional: 'centered' or 'wide'
 )
 # --- Get Current Time ---
@@ -187,7 +187,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Add CSS for sidebar and content
 st.markdown(
     """
     <style>
@@ -276,7 +275,6 @@ if uploaded_file is not None:
     with col2:
         st.image(output_image, caption="🌟 Background Removed", use_container_width=True)
 
-    # Save output to Downloads folder
     downloads_folder = os.path.join(os.path.expanduser('~'), 'Downloads')
     original_name = os.path.splitext(uploaded_file.name)[0]
     output_path = os.path.join(downloads_folder, f"{original_name}_nobg.png")
