@@ -31,19 +31,19 @@ To set up ClearCut on your local machine for development, follow these steps:
    ```bash 
    cd clearcut
    
-3.Create a virtual environment:
+3. Create a virtual environment:
    ```bash
    python3 -m venv venv
 
-4.Activate the virtual environment:
+4. Activate the virtual environment:
    ```bash
    .\venv\Scripts\activate
 
-5.install the dependencies:
+5. install the dependencies:
    ```bash
    pip install -r requirements.txt
 
-6.Run the Streamlit app:
+6. Run the Streamlit app:
    ```bash
    streamlit run nobgv3.py
 
