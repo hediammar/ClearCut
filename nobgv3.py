@@ -140,8 +140,8 @@ def image_to_base64(image: Image.Image) -> str:
     return base64.b64encode(buffered.getvalue()).decode("utf-8")
 
 # Load logo
-logo = Image.open("ClearCut/assets/ClearCut_Logo.png")  # Path to your logo
-testo = Image.open("ClearCut/assets/footer_nobg.png")
+logo = Image.open("assets/ClearCut_Logo.png")  # Path to your logo
+testo = Image.open("assets/footer_nobg.png")
 # --- Page Configuration ---
 # --- Set Page Configuration ---
 st.set_page_config(
