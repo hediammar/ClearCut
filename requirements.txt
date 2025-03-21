@@ -3,7 +3,7 @@ pillow==9.1.0
 numpy>=1.23.1
 scipy>=1.9.1
 opencv-python-headless==4.6.0.66
-rembg==2.0.22
+rembg>=2.0.55
 pymatting>=0.1.6
 setuptools>=58.0.0
 rich>=10.14.0
